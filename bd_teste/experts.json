@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "60a8b91410b01c59e5c558b2" }, "name" : "Roque Pina", "type" : "DBtester", "description" : "Teste de inserção de dados na tabela especialistas", "active" : true }

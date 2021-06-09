@@ -1,0 +1,253 @@
+{
+	"variables": [],
+	"info": {
+		"name": "PWA - Animalec",
+		"_postman_id": "9cca9216-a68e-4dc6-6508-9671d123ed6b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"request": {
+				"url": "localhost:8080/auth",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "$2a$04$LtvsBvwBr0.gByFxs0sY5Orz.mcSHkXq4cU7D4NG6fdgapht6fel.",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"username\": \"jnobre\",\r\n\t\"password\": \"123\"\r\n}"
+				},
+				"description": "Auth "
+			},
+			"response": []
+		},
+		{
+			"name": "local - auth ",
+			"request": {
+				"url": "localhost:8080/auth",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNjk5OTU2LCJleHAiOjE2MjE3MTQ5NTYsImlzcyI6IkZDQSJ9.IqO_8572CWb1SYYaCb64BQnbrwJpAnExgHLn8NgDPS0",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "local -get sponsors",
+			"request": {
+				"url": "localhost:8080/sponsors",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNjk5OTU2LCJleHAiOjE2MjE3MTQ5NTYsImlzcyI6IkZDQSJ9.IqO_8572CWb1SYYaCb64BQnbrwJpAnExgHLn8NgDPS0",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "local -get experts",
+			"request": {
+				"url": "localhost:8080/experts",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNjk5OTU2LCJleHAiOjE2MjE3MTQ5NTYsImlzcyI6IkZDQSJ9.IqO_8572CWb1SYYaCb64BQnbrwJpAnExgHLn8NgDPS0",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "local - create experts",
+			"request": {
+				"url": "localhost:8080/experts",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNjk5OTU2LCJleHAiOjE2MjE3MTQ5NTYsImlzcyI6IkZDQSJ9.IqO_8572CWb1SYYaCb64BQnbrwJpAnExgHLn8NgDPS0",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"lucia\",\r\n\t\"species\": \"aves\",\r\n\t\"birth_date\": \"1982-03-19\",\r\n\t\"description\": \"Gosto de tigres.\",\r\n\t\"location\": {\r\n        \"city\": \"Porto\",\r\n        \"district\": \"Porto\",\r\n        \"country\": \"Portugal\"\r\n    },\r\n    \"auth\": {\r\n        \"username\": \"lu\",\r\n        \"password\": \"456\"\r\n    }\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "local - create sponsors",
+			"request": {
+				"url": "localhost:8080/sponsors",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNzE1OTkxLCJleHAiOjE2MjE3MzA5OTEsImlzcyI6IkZDQSJ9.Pi7qp_sSRcMmCKou9CWsMnGu7zW9mwQT8pymDPQ6RGc",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"Zoo do Coimbra\",\r\n\t\"type\": \"mamiferos\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "local - delete expert",
+			"request": {
+				"url": "localhost:8080/experts/60a9387cdc861b83c0bfc418",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNzE1OTkxLCJleHAiOjE2MjE3MzA5OTEsImlzcyI6IkZDQSJ9.Pi7qp_sSRcMmCKou9CWsMnGu7zW9mwQT8pymDPQ6RGc",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "local - update expert",
+			"request": {
+				"url": "localhost:8080/experts/60a96a7848704f24901e9fe2",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNzE1OTkxLCJleHAiOjE2MjE3MzA5OTEsImlzcyI6IkZDQSJ9.Pi7qp_sSRcMmCKou9CWsMnGu7zW9mwQT8pymDPQ6RGc",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"lucia\",\r\n\t\"species\": \"mamiferos\",\r\n\t\"birth_date\": \"1982-03-19\",\r\n\t\"description\": \"Gosto de tigres.\",\r\n\t\"location\": {\r\n        \"city\": \"Porto\",\r\n        \"district\": \"Porto\",\r\n        \"country\": \"Portugal\"\r\n    },\r\n    \"auth\": {\r\n        \"username\": \"lu\",\r\n        \"password\": \"456\"\r\n    }\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "local - update sponsor",
+			"request": {
+				"url": "localhost:8080/sponsors/60a96cf048704f24901e9fe3",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNzE1OTkxLCJleHAiOjE2MjE3MzA5OTEsImlzcyI6IkZDQSJ9.Pi7qp_sSRcMmCKou9CWsMnGu7zW9mwQT8pymDPQ6RGc",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"Zoo do Coimbra\",\r\n\t\"type\": \"peixes\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "local - delete sponsor",
+			"request": {
+				"url": "localhost:8080/sponsors/60a96e1f2ab219454c0ad32e",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwayI6IjZ4dnFxaGNuMHNsNjA4N2NjYzRhODFlMmEwMDA0YTU1ZDQxIiwiaWF0IjoxNjIxNzE1OTkxLCJleHAiOjE2MjE3MzA5OTEsImlzcyI6IkZDQSJ9.Pi7qp_sSRcMmCKou9CWsMnGu7zW9mwQT8pymDPQ6RGc",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

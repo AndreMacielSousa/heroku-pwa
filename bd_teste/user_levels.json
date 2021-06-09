@@ -1,0 +1,5 @@
+{ "_id" : { "$oid" : "5dee5a4701bc811f888f54ae" }, "name" : "iniciante", "level" : 1, "avatar" : "sapo", "max" : 100, "__v" : 0 }
+{ "_id" : { "$oid" : "5dee5a5301bc811f888f54af" }, "name" : "aprendiz", "level" : 2, "avatar" : "macaco", "max" : 200, "__v" : 0 }
+{ "_id" : { "$oid" : "5dee5a5d01bc811f888f54b0" }, "name" : "junior", "level" : 3, "avatar" : "cao", "max" : 300, "__v" : 0 }
+{ "_id" : { "$oid" : "5dee5a6801bc811f888f54b1" }, "name" : "especialista", "level" : 4, "avatar" : "tigre", "max" : 400, "__v" : 0 }
+{ "_id" : { "$oid" : "5dee5a7b01bc811f888f54b2" }, "name" : "mestre", "level" : 5, "avatar" : "leao", "max" : 500, "__v" : 0 }

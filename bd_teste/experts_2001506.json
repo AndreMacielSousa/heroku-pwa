@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "60a9387cdc861b83c0bfc418" }, "active" : true, "name" : "joao", "species" : "aves", "birth_date" : { "$date" : "1997-03-19T00:00:00.000+0000" }, "description" : "Gosto de aves", "location" : { "city" : "Coimbra", "district" : "Coimbra", "country" : "Portugal" }, "__v" : 0 }
