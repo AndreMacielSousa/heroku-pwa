@@ -1,2 +1,2 @@
 # heroku-pwa
-API pwa regez
+API pwa regex

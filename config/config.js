@@ -1,11 +1,14 @@
 module.exports = {
     mongodb: {
-        uri: 'mongodb+srv://fcabook:fT73qsfEjZ7C@fcabook-jly7a.mongodb.net/test?retryWrites=true&w=majority', //todo - setup BD mongobd
+        uri: 'mongodb+srv://fcabook:fT73qsfEjZ7C@fcabook-jly7a.mongodb.net/test?retryWrites=true&w=majority',
         collections: {
-
+            animal: 'animals',
+            question: 'questions',
+            quiz: 'quizzes',
             user: 'users',
             user_levels: "user_levels",
-            versions: 'versions'
+            sponsor: 'sponsors_2001506',
+            expert: 'experts_2001506'
         }
     },
     auth: {
@@ -16,5 +19,11 @@ module.exports = {
         alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzŠŒŽšœžŸ¥µÀÁÂÃÄÅÆÇÈÉÊËẼÌÍÎÏĨÐÑÒÓÔÕÖØÙÚÛÜÝßàáâãäåæçèéêëẽìíîïĩðñòóôõöøùúûüýÿ\\ ",
         numerical: "0123456789"
     },
-
+    email: {
+        service: "Gmail",
+        auth: {
+            user: "mailserverpw@gmail.com",
+            pass: "ttxirdxzkafhcuel"
+        }
+    }
 }
