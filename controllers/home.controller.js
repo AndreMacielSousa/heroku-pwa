@@ -8,7 +8,7 @@ exports.get = (req, res) => {
     let compiled_page = Handlebars.compile(home)({
         title: "Regex",
         style: {
-            background_color: "##012153",
+            background_color: "#012153",
             text_color: "#FFFFFF"
         },
         content: {

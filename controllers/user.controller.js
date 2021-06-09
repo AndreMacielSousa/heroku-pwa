@@ -5,7 +5,7 @@ const {
 const UserMessages = require("../messages/user.messages");
 const JWT = require("jsonwebtoken");
 const CONFIG = require("../config/config");
-const Animal = require("../models/animal.model");
+
 
 exports.get = (req, res) => {
 
@@ -121,16 +121,7 @@ exports.delete = (req, res) => {
         if (error) throw error;
         if (result.deletedCount <= 0) return res.status(UserMessages.error.e1.http).send(UserMessages.error.e1);
 
-        Animal.updateMany({}, {
-            $pull: {
-                comments: {
-                    user: req.params.id
-                }
-            }
-        }, (error) => {
-            if (error) throw error;
-            return res.status(UserMessages.success.s3.http).send(UserMessages.success.s3);
-        });
+
     });
 
 }
