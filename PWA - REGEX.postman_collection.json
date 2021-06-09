@@ -56,9 +56,9 @@
 			"response": []
 		},
 		{
-			"name": "local -get sponsors",
+			"name": "local -get updatess",
 			"request": {
-				"url": "localhost:8080/sponsors",
+				"url": "localhost:8080/updatess",
 				"method": "GET",
 				"header": [
 					{
@@ -80,9 +80,9 @@
 
 
 		{
-			"name": "local - create sponsors",
+			"name": "local - create updatess",
 			"request": {
-				"url": "localhost:8080/sponsors",
+				"url": "localhost:8080/updatess",
 				"method": "POST",
 				"header": [
 					{
@@ -107,9 +107,9 @@
 		
 		
 		{
-			"name": "local - update sponsor",
+			"name": "local - update updates",
 			"request": {
-				"url": "localhost:8080/sponsors/60a96cf048704f24901e9fe3",
+				"url": "localhost:8080/updatess/60a96cf048704f24901e9fe3",
 				"method": "PUT",
 				"header": [
 					{
@@ -132,9 +132,9 @@
 			"response": []
 		},
 		{
-			"name": "local - delete sponsor",
+			"name": "local - delete updates",
 			"request": {
-				"url": "localhost:8080/sponsors/60a96e1f2ab219454c0ad32e",
+				"url": "localhost:8080/updatess/60a96e1f2ab219454c0ad32e",
 				"method": "DELETE",
 				"header": [
 					{

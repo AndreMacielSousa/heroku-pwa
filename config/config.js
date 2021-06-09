@@ -6,7 +6,7 @@ module.exports = {
             user: 'users',
             user_levels: "user_levels",
 
-            sponsor: 'sponsors_2001506'
+            updates: 'updatess_2001506'
         }
     },
     auth: {
