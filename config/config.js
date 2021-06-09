@@ -1,14 +1,12 @@
 module.exports = {
     mongodb: {
-        uri: 'mongodb+srv://fcabook:fT73qsfEjZ7C@fcabook-jly7a.mongodb.net/test?retryWrites=true&w=majority',
+        uri: 'mongodb+srv://fcabook:fT73qsfEjZ7C@fcabook-jly7a.mongodb.net/test?retryWrites=true&w=majority', //TODO #1 criar a MongoBD
         collections: {
-            animal: 'animals',
-            question: 'questions',
-            quiz: 'quizzes',
+            
             user: 'users',
             user_levels: "user_levels",
-            sponsor: 'sponsors_2001506',
-            expert: 'experts_2001506'
+
+            updates: 'updates'
         }
     },
     auth: {
