@@ -1,7 +1,8 @@
+
 module.exports = {
     mongodb: {
-        //uri: 'mongodb+srv://fcabook:fT73qsfEjZ7C@fcabook-jly7a.mongodb.net/test?retryWrites=true&w=majority', //TODO #1 criar a MongoBD
-        uri: 'mongodb+srv://pwaregex:fT73qsfEjZ7C@cluster0.o28ux.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', //TODO #1 criar a MongoBD
+        uri: 'mongodb+srv://fcabook:fT73qsfEjZ7C@fcabook-jly7a.mongodb.net/test?retryWrites=true&w=majority', 
+        //uri: 'mongodb+srv://pwaregex:fT73qsfEjZ7C@cluster0.o28ux.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
         collections: {
             
             user: 'users',
